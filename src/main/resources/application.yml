@@ -1,0 +1,12 @@
+deprecated-functionality:
+  enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8082
